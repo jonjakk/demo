@@ -149,5 +149,20 @@
 
     <script src="js/data.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+    
+    <!-- Live Chat Deployment -->
+    <script type="text/javascript" 
+             id='init-agentforce-messaging' 
+             src='https://test-service.force.com/embeddedservice/agentforcemessaging/0.3/init.js' 
+             onload='agentforce_messaging.init({
+                    "siteUrl": "https://jonjakk.github.io/demo/",
+                    "agentApiConfiguration": {
+                            "agentId":"0XxJ6000000c1moKAA", 
+                            "domainUrl":"https://storm-f4bbd56c3b630a.my.salesforce.com"
+                    },
+                    "uiConfiguration": {}
+            });'>
+    </script>
 </body>
 </html>
