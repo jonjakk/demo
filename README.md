@@ -1,5 +1,7 @@
 # Mercedes-Benz Car Configurator
 
+LINK: https://jonjakk.github.io/demo/
+
 A responsive Mercedes-Benz branded car configuration website that allows users to explore different car models and customize them with various options. This project is designed to be hosted on GitHub Pages.
 
 ## Features
