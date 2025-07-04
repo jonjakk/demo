@@ -164,5 +164,27 @@
                     "uiConfiguration": {}
             });'>
     </script>
+    <script>
+setTimeout(() => {
+    console.log('=== Agentforce Debug ===');
+    const container = document.getElementById('agentforce-messaging');
+    const iframe = document.getElementById('agentforce-messaging-frame');
+    
+    console.log('Container found:', !!container);
+    console.log('Iframe found:', !!iframe);
+    
+    if (container) {
+        console.log('Container styles:', window.getComputedStyle(container));
+        console.log('Container position:', container.getBoundingClientRect());
+    }
+    
+    if (iframe) {
+        console.log('Iframe styles:', window.getComputedStyle(iframe));
+        console.log('Iframe position:', iframe.getBoundingClientRect());
+        console.log('Iframe src:', iframe.src);
+    }
+}, 5000);
+</script>
+
 </body>
 </html>
