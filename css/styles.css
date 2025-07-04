@@ -555,3 +555,50 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* Agentforce Messaging Widget Styles */
+#agentforce-messaging {
+    position: fixed !important;
+    bottom: 20px !important;
+    right: 20px !important;
+    z-index: 9999 !important;
+    width: 400px !important;
+    height: 600px !important;
+}
+
+#agentforce-messaging-frame {
+    width: 100% !important;
+    height: 100% !important;
+    border: none !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+    background-color: transparent !important;
+}
+
+/* Different states for the chat widget */
+#agentforce-messaging-frame.init {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+#agentforce-messaging-frame.normal {
+    width: 400px !important;
+    height: 600px !important;
+}
+
+#agentforce-messaging-frame.expanded {
+    width: 100vw !important;
+    height: 100vh !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    border-radius: 0 !important;
+}
+
+#agentforce-messaging-frame.closed {
+    width: 60px !important;
+    height: 60px !important;
+}
+
+
+
