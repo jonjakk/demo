@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes-Benz Car Configurator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="images/mercedes-logo.png" alt="Mercedes-Benz Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#models">Models</a></li>
+                    <li><a href="#configurator">Configurator</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>The Best or Nothing</h1>
+            <p>Configure your dream Mercedes-Benz</p>
+            <a href="#configurator" class="btn">Start Configuring</a>
+        </div>
+    </section>
+
+    <section id="models" class="models">
+        <div class="container">
+            <h2>Our Models</h2>
+            <div class="model-categories">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="sedan">Sedan</button>
+                <button class="category-btn" data-category="suv">SUV</button>
+                <button class="category-btn" data-category="coupe">Coupe</button>
+                <button class="category-btn" data-category="electric">Electric</button>
+            </div>
+            <div class="model-grid">
+                <!-- Model cards will be loaded dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section id="configurator" class="configurator">
+        <div class="container">
+            <h2>Car Configurator</h2>
+            <div class="configurator-container">
+                <div class="car-display">
+                    <img id="car-image" src="images/cars/default.jpg" alt="Selected Car">
+                </div>
+                <div class="config-options">
+                    <div class="config-section">
+                        <h3>Select Model</h3>
+                        <select id="model-select">
+                            <option value="">Choose a model</option>
+                            <!-- Options will be populated via JavaScript -->
+                        </select>
+                    </div>
+                    <div class="config-section">
+                        <h3>Exterior Color</h3>
+                        <div class="color-options">
+                            <!-- Color options will be populated via JavaScript -->
+                        </div>
+                    </div>
+                    <div class="config-section">
+                        <h3>Wheels</h3>
+                        <div class="wheel-options">
+                            <!-- Wheel options will be populated via JavaScript -->
+                        </div>
+                    </div>
+                    <div class="config-section">
+                        <h3>Interior</h3>
+                        <div class="interior-options">
+                            <!-- Interior options will be populated via JavaScript -->
+                        </div>
+                    </div>
+                    <div class="config-section">
+                        <h3>Packages</h3>
+                        <div class="package-options">
+                            <!-- Package options will be populated via JavaScript -->
+                        </div>
+                    </div>
+                    <div class="price-summary">
+                        <h3>Summary</h3>
+                        <div class="price-details">
+                            <p>Base Price: <span id="base-price">$0</span></p>
+                            <p>Options: <span id="options-price">$0</span></p>
+                            <p>Total: <span id="total-price">$0</span></p>
+                        </div>
+                        <button class="btn save-config">Save Configuration</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Mercedes-Benz</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Mercedes-Benz is a global automobile marque and a division of the German company Daimler AG. Mercedes-Benz is known for luxury vehicles, buses, coaches, and trucks. The headquarters is in Stuttgart, Baden-Württemberg, Germany.</p>
+                    <p>The brand's slogan is "The Best or Nothing" which reflects our commitment to engineering excellence, innovation, and performance.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/about-mercedes.jpg" alt="Mercedes-Benz Heritage">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/mercedes-logo.png" alt="Mercedes-Benz Logo">
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#models">Models</a></li>
+                        <li><a href="#configurator">Configurator</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Mercedes-Benz. This is a demo website for educational purposes only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

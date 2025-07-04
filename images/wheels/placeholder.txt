@@ -1,0 +1,10 @@
+This directory should contain the following wheel images:
+
+- wheel1.jpg (17-inch 5-spoke wheels)
+- wheel2.jpg (18-inch 5-twin-spoke wheels)
+- wheel3.jpg (19-inch AMG 5-twin-spoke wheels)
+- wheel4.jpg (19-inch multi-spoke wheels)
+- wheel5.jpg (20-inch AMG multi-spoke wheels)
+- wheel6.jpg (21-inch AMG cross-spoke forged wheels)
+
+Recommended image size: 200x200px with transparent background.

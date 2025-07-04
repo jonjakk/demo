@@ -1,0 +1,10 @@
+This directory should contain the following interior images:
+
+- interior1.jpg (MB-Tex - Black)
+- interior2.jpg (MB-Tex - Beige)
+- interior3.jpg (Leather - Black)
+- interior4.jpg (Leather - Brown)
+- interior5.jpg (Nappa Leather - Black)
+- interior6.jpg (Nappa Leather - Macchiato Beige)
+
+Recommended image size: 200x200px showing interior material and color.

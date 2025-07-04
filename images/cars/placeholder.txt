@@ -1,0 +1,16 @@
+This directory should contain the following car model images:
+
+- default.jpg (Default car image)
+- a-class.jpg (A-Class Sedan)
+- c-class.jpg (C-Class Sedan)
+- e-class.jpg (E-Class Sedan)
+- s-class.jpg (S-Class Sedan)
+- gla.jpg (GLA SUV)
+- glc.jpg (GLC SUV)
+- gle.jpg (GLE SUV)
+- cla.jpg (CLA Coupe)
+- amg-gt.jpg (AMG GT Coupe)
+- eqs.jpg (EQS Sedan)
+- eqb.jpg (EQB SUV)
+
+Recommended image size: 800x450px with transparent or white background.

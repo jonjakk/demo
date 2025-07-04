@@ -1,0 +1,16 @@
+This directory contains all the images for the Mercedes-Benz Car Configurator website.
+
+Required image structure:
+
+- mercedes-logo.png (Mercedes-Benz logo)
+- hero-bg.jpg (Hero section background)
+- about-mercedes.jpg (About section image)
+
+Subdirectories:
+- cars/ (Car model images)
+- wheels/ (Wheel option images)
+- interiors/ (Interior option images)
+
+Until you have the actual images, you can use placeholder services like:
+1. https://via.placeholder.com/800x600
+2. https://placehold.co/600x400/e4e4e4/000000?text=Mercedes+A-Class
